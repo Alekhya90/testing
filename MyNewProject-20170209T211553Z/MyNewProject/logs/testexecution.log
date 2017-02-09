@@ -1,0 +1,82 @@
+[main] 18:25:19,917 INFO  [com.jass.common.CommonMethods] Opening FireFox
+[main] 18:25:21,090 INFO  [com.jass.common.CommonMethods] Opening URL
+[main] 18:25:21,170 INFO  [com.jass.common.CommonMethods] //*[@id='bodyContent']/div/div[1]/a[1]/u clicked
+[main] 18:25:23,239 INFO  [com.jass.common.CommonMethods] ecalix@test.com entered
+[main] 18:25:23,293 INFO  [com.jass.common.CommonMethods] test123 entered
+[main] 18:25:23,799 INFO  [com.jass.common.CommonMethods] //*[@id='tdb5']/span[2] clicked
+[main] 18:25:25,812 INFO  [com.jass.common.CommonMethods] On page iBusiness. Expected Text "Welcome to iBusiness" verified
+[main] 18:25:25,849 INFO  [com.jass.common.CommonMethods] //*[@id='tdb4']/span clicked
+[main] 18:25:28,409 INFO  [com.jass.common.CommonMethods] close Browser
+[main] 18:37:35,250 INFO  [com.jass.common.CommonMethods] Opening FireFox
+[main] 18:37:36,393 INFO  [com.jass.common.CommonMethods] Opening URL
+[main] 18:37:36,487 INFO  [com.jass.common.CommonMethods] //*[@id='bodyContent']/div/div[1]/a[1]/u clicked
+[main] 18:37:38,557 INFO  [com.jass.common.CommonMethods] ecalix@test.com entered
+[main] 18:37:38,611 INFO  [com.jass.common.CommonMethods] test123 entered
+[main] 18:37:38,992 INFO  [com.jass.common.CommonMethods] //*[@id='tdb5']/span[2] clicked
+[main] 18:37:41,007 INFO  [com.jass.common.CommonMethods] On page iBusiness. Expected Text "Welcome to iBusiness" verified
+[main] 18:37:41,046 INFO  [com.jass.common.CommonMethods] //*[@id='tdb4']/span clicked
+[main] 18:37:43,594 INFO  [com.jass.common.CommonMethods] close Browser
+[main] 19:01:59,624 INFO  [com.jass.common.CommonMethods] Opening FireFox
+[main] 19:02:09,382 INFO  [com.jass.common.CommonMethods] Opening URL
+[main] 19:02:09,455 INFO  [com.jass.common.CommonMethods] //*[@id='bodyContent']/div/div[1]/a[1]/u clicked
+[main] 19:02:11,526 INFO  [com.jass.common.CommonMethods] ecalix@test.com entered
+[main] 19:02:11,574 INFO  [com.jass.common.CommonMethods] test123 entered
+[main] 19:02:11,988 INFO  [com.jass.common.CommonMethods] //*[@id='tdb5']/span[2] clicked
+[main] 19:02:14,005 INFO  [com.jass.common.CommonMethods] On page iBusiness. Expected Text "Welcome to iBusiness" verified
+[main] 19:02:14,054 INFO  [com.jass.common.CommonMethods] //*[@id='tdb4']/span clicked
+[main] 19:02:17,228 INFO  [com.jass.common.CommonMethods] close Browser
+[main] 19:03:36,258 INFO  [com.jass.common.CommonMethods] Opening FireFox
+[main] 19:03:46,032 INFO  [com.jass.common.CommonMethods] Opening URL
+[main] 19:03:46,111 INFO  [com.jass.common.CommonMethods] //*[@id='bodyContent']/div/div[1]/a[1]/u clicked
+[main] 19:03:48,192 INFO  [com.jass.common.CommonMethods] ecalix@test.com entered
+[main] 19:03:48,243 INFO  [com.jass.common.CommonMethods] test123 entered
+[main] 19:03:48,683 INFO  [com.jass.common.CommonMethods] //*[@id='tdb5']/span[2] clicked
+[main] 19:03:50,696 INFO  [com.jass.common.CommonMethods] On page iBusiness. Expected Text "Welcome to iBusiness" verified
+[main] 19:03:50,730 INFO  [com.jass.common.CommonMethods] //*[@id='tdb4']/span clicked
+[main] 19:03:53,138 INFO  [com.jass.common.CommonMethods] close Browser
+[main] 19:08:33,034 INFO  [com.jass.common.CommonMethods] Opening FireFox
+[main] 19:08:34,233 INFO  [com.jass.common.CommonMethods] Opening URL
+[main] 19:08:34,339 INFO  [com.jass.common.CommonMethods] //*[@id='bodyContent']/div/div[1]/a[1]/u clicked
+[main] 19:08:36,427 INFO  [com.jass.common.CommonMethods] ecalix@test.com entered
+[main] 19:08:36,476 INFO  [com.jass.common.CommonMethods] test123 entered
+[main] 19:08:36,853 INFO  [com.jass.common.CommonMethods] //*[@id='tdb5']/span[2] clicked
+[main] 19:08:38,867 INFO  [com.jass.common.CommonMethods] On page iBusiness. Expected Text "Welcome to iBusiness" verified
+[main] 19:08:38,903 INFO  [com.jass.common.CommonMethods] //*[@id='tdb4']/span clicked
+[main] 19:08:41,325 INFO  [com.jass.common.CommonMethods] close Browser
+[main] 19:10:08,690 INFO  [com.jass.common.CommonMethods] Opening FireFox
+[main] 19:10:09,364 INFO  [com.jass.common.CommonMethods] Opening URL
+[main] 19:10:09,431 INFO  [com.jass.common.CommonMethods] //*[@id='bodyContent']/div/div[1]/a[1]/u clicked
+[main] 19:10:11,497 INFO  [com.jass.common.CommonMethods] ecalix@test.com entered
+[main] 19:10:11,545 INFO  [com.jass.common.CommonMethods] test123 entered
+[main] 19:10:11,965 INFO  [com.jass.common.CommonMethods] //*[@id='tdb5']/span[2] clicked
+[main] 19:10:13,978 INFO  [com.jass.common.CommonMethods] On page iBusiness. Expected Text "Welcome to iBusiness" verified
+[main] 19:10:14,009 INFO  [com.jass.common.CommonMethods] //*[@id='tdb4']/span clicked
+[main] 19:10:16,373 INFO  [com.jass.common.CommonMethods] close Browser
+[main] 19:10:21,875 INFO  [com.jass.common.CommonMethods] Opening FireFox
+[main] 19:10:22,755 INFO  [com.jass.common.CommonMethods] Opening URL
+[main] 19:10:22,821 INFO  [com.jass.common.CommonMethods] //*[@id='bodyContent']/div/div[1]/a[1]/u clicked
+[main] 19:10:24,885 INFO  [com.jass.common.CommonMethods] ecalix@test.com entered
+[main] 19:10:24,931 INFO  [com.jass.common.CommonMethods] test123 entered
+[main] 19:10:25,373 INFO  [com.jass.common.CommonMethods] //*[@id='tdb5']/span[2] clicked
+[main] 19:10:27,385 INFO  [com.jass.common.CommonMethods] On page iBusiness. Expected Text "Welcome to iBusiness" verified
+[main] 19:10:27,415 INFO  [com.jass.common.CommonMethods] //*[@id='tdb4']/span clicked
+[main] 19:10:29,769 INFO  [com.jass.common.CommonMethods] close Browser
+[main] 19:10:48,593 INFO  [com.jass.common.CommonMethods] Opening FireFox
+[main] 19:13:50,972 INFO  [com.jass.common.CommonMethods] Opening FireFox
+[main] 19:13:51,580 INFO  [com.jass.common.CommonMethods] Opening URL
+[main] 19:13:51,648 INFO  [com.jass.common.CommonMethods] //*[@id='bodyContent']/div/div[1]/a[1]/u clicked
+[main] 19:13:53,718 INFO  [com.jass.common.CommonMethods] ecalix@test.com entered
+[main] 19:13:53,763 INFO  [com.jass.common.CommonMethods] test123 entered
+[main] 19:13:54,109 INFO  [com.jass.common.CommonMethods] //*[@id='tdb5']/span[2] clicked
+[main] 19:13:56,130 INFO  [com.jass.common.CommonMethods] On page iBusiness. Expected Text "Welcome to iBusiness" verified
+[main] 19:13:56,178 INFO  [com.jass.common.CommonMethods] //*[@id='tdb4']/span clicked
+[main] 19:13:58,605 INFO  [com.jass.common.CommonMethods] close Browser
+[main] 19:14:04,420 INFO  [com.jass.common.CommonMethods] Opening FireFox
+[main] 19:14:04,957 INFO  [com.jass.common.CommonMethods] Opening URL
+[main] 19:14:05,123 INFO  [com.jass.common.CommonMethods] //*[@id='bodyContent']/div/div[1]/a[1]/u clicked
+[main] 19:14:07,193 INFO  [com.jass.common.CommonMethods] ecalix@test.com entered
+[main] 19:14:07,242 INFO  [com.jass.common.CommonMethods] test123 entered
+[main] 19:14:07,835 INFO  [com.jass.common.CommonMethods] //*[@id='tdb5']/span[2] clicked
+[main] 19:14:09,848 INFO  [com.jass.common.CommonMethods] On page iBusiness. Expected Text "Welcome to iBusiness" verified
+[main] 19:14:09,886 INFO  [com.jass.common.CommonMethods] //*[@id='tdb4']/span clicked
+[main] 19:14:12,291 INFO  [com.jass.common.CommonMethods] close Browser

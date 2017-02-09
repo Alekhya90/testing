@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="2"
+           time="0.009">
+  <properties />
+            <testcase name="setUp" time="0.000" classname="com.jass.tests.LoginTests2">
+                <failure type="org.openqa.selenium.remote.UnreachableBrowserException"
+                  message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;DESKTOP-O7C19DQ&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: RemoteWebDriver"
+              >
+<![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
+System info: host: 'DESKTOP-O7C19DQ', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: RemoteWebDriver
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+  org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:128)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
+  com.jass.common.CommonMethods.openBrowser(CommonMethods.java:37)
+  com.jass.tests.LoginTests2.setUp(LoginTests2.java:26)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:746)
+  org.testng.TestRunner.run(TestRunner.java:600)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+  org.testng.TestNG.runSuites(TestNG.java:1104)
+  org.testng.TestNG.run(TestNG.java:1076)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 10.1.10.171:7777 [/10.1.10.171] failed: Connection refused: connect
+  org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+  org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+  org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+  org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+  org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+  org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+  org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+  org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+  org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+  org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+  org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:128)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
+  com.jass.common.CommonMethods.openBrowser(CommonMethods.java:37)
+  com.jass.tests.LoginTests2.setUp(LoginTests2.java:26)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:746)
+  org.testng.TestRunner.run(TestRunner.java:600)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+  org.testng.TestNG.runSuites(TestNG.java:1104)
+  org.testng.TestNG.run(TestNG.java:1076)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.net.ConnectException: Connection refused: connect
+  java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+  java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+  java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+  java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+  java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+  java.net.PlainSocketImpl.connect(Unknown Source)
+  java.net.SocksSocketImpl.connect(Unknown Source)
+  java.net.Socket.connect(Unknown Source)
+  org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+  org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+  org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+  org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+  org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+  org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+  org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+  org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+  org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+  org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:108)
+  org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:64)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+  org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:128)
+  org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
+  com.jass.common.CommonMethods.openBrowser(CommonMethods.java:37)
+  com.jass.tests.LoginTests2.setUp(LoginTests2.java:26)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:746)
+  org.testng.TestRunner.run(TestRunner.java:600)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+  org.testng.TestNG.runSuites(TestNG.java:1104)
+  org.testng.TestNG.run(TestNG.java:1076)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="tearDown" time="0.0" classname="com.jass.tests.LoginTests2">
+          <skipped />
+    </testcase>
+            <testcase name="testcase01" time="0.0" classname="com.jass.tests.LoginTests2">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
